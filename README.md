@@ -1,1 +1,1 @@
-# Fast-MDP
+# Kron-MDP
