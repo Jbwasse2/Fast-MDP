@@ -19,7 +19,7 @@ print(pi.V)
 
 
 Ps = [P,P]
-Rs = []
-#pi_kron = mdptoolbox.kronPolicyMDP.KronPolicyMDP(P, R, 0.9)
-#pi_kron.run()
+Rs = [R,R]
+pi_kron = mdptoolbox.kronPolicyMDP.KronPolicyIteration(Ps, Rs, 0.9)
+pi_kron.run()
 
